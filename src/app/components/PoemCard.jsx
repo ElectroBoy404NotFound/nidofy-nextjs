@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardActions, Box, Button, Typography } from '@mui/material';
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 // import { Link } from 'react-router-dom';
 
 export default function PoemCard({ poem }) {
@@ -21,7 +22,7 @@ export default function PoemCard({ poem }) {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ justifyContent: "space-between" }}>
-                        <Button size="small" to={ `/poem/${poem.id}` }>Read full poem</Button>
+                        <Button size="small" component={Link} href={ `/poem/${poem.id}` }>Read full poem</Button>
                         <Typography variant="caption">
                             { poem.date }
                         </Typography>
