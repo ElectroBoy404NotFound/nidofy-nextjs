@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Nidofy-Vite
 
-First, run the development server:
+This is a rewrite of my [portfolio site's rewrite in React](https://github.com/ElectroBoy404NotFound/nidofy-vite) in Next.JS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Currently, I've implemented the home page and the poems view.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Featues
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Shows my tech skills
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Shows a list of poems I wrote
 
-## Learn More
+- Allows me to upload poems
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Frontend: Next.JS, React, Material UI, Swiper.JS, framer-motion and react-icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Backend: Java (Spring Boot)
 
-## Deploy on Vercel
+## Backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can find more about the backend here (https://github.com/ElectroBoy404NotFound/nidofy/tree/main/nidofy-backend)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploying
+
+Once the repo is cloned, run `npm i`, `npm run build` and finally `npm start`.
+
+## Demo
+
+The live site can be accessed at https://nido.dino.icu/
+
+## Contributing
+
+Contributions are always welcome!
+
+Make a change and send a pull request.
