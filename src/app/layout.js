@@ -3,7 +3,7 @@
 import "./globals.css";
 
 import DottedBackground from "@/components/DottedBackground";
-import ThemeRegistry from "./theme/ThemeRegistry";
+import ThemeRegistry from "@/theme/ThemeRegistry";
 
 export default function RootLayout({ children }) {
   return (
