@@ -13,6 +13,8 @@ Currently, I've implemented the home page and the poems view.
 
 - Allows me to upload poems
 
+- Does server side rendering cuz next.js
+
 ## Tech Stack
 
 - Frontend: Next.JS, React, Material UI, Swiper.JS, framer-motion and react-icons
