@@ -1,4 +1,5 @@
 import { Box, Container, Stack, Typography } from '@mui/material';
+import Image from "next/image";
 
 function HeroSection() {
     return (
@@ -12,9 +13,9 @@ function HeroSection() {
         >
             <Container maxWidth="sm">
                 <Box
-                    component="img"
-                    src="/static/me.jpeg"
-                    alt="Nikunj Doke"
+                    // component="img"
+                    // src="/static/me.jpeg"
+                    // alt="Nikunj Doke"
                     sx={{
                         width: { 
                             xs: 120, 
@@ -28,7 +29,21 @@ function HeroSection() {
                         boxShadow: 3,
                         borderRadius: 6,
                     }}
-                />
+                >
+                    <Image
+                        src="/static/me.jpeg"
+                        alt="Nikunj Doke"
+                        width={427}
+                        height={427}
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            display: "block",
+                            boxShadow: 3,
+                            borderRadius: 8,
+                        }}
+                    />
+                </Box>
 
                 <Stack spacing={2} alignitems="center" textalign="center">
                     <Typography variant="h3" className="text-red-600" style={{ fontFamily: 'cursive' }}>

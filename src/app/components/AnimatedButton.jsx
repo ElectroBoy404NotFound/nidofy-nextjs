@@ -1,3 +1,5 @@
+"use client";
+
 import Button from '@mui/material/Button';
 import { motion } from "framer-motion";
 import Link from "next/link";
