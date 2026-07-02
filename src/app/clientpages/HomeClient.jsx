@@ -4,7 +4,6 @@ import HeroSection from "@/components/HeroSection";
 import DividerLine from "@/components/DividerLine";
 import HomeSectionHeading from "@/components/HomeSectionHeading";
 import PoemCard from "@/components/PoemCard"
-import PoemCardSkeleton from "@/components/PoemCardSkeleton"
 
 import { SiC, SiCplusplus, SiCss, SiJavascript, SiPython, SiSpringboot, SiExpress, SiReact, SiAndroidstudio, SiNginx } from "react-icons/si";
 import { FaJava, FaNode, FaCloudflare } from "react-icons/fa6";
@@ -108,11 +107,7 @@ function HomeClient({ data }) {
                         loop={true}
                     >
                         { 
-                            data.numberOfPoems === 0 ? 
-                                Array.from({ length: 8 }).map((_, i) => (
-                                    <SwiperSlide> <PoemCardSkeleton /> </SwiperSlide>
-                                ))
-                            : sortByDateAndId(data.poetry).map(poem => (
+                            sortByDateAndId(data.poetry).map(poem => (
                                 <SwiperSlide><PoemCard poem={poem} /></SwiperSlide>
                             ))
                         }
