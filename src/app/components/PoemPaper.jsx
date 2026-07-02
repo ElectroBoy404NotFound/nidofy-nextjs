@@ -1,10 +1,11 @@
+"use client"
+
 import { Container, Grid, Paper, Typography, IconButton, Snackbar } from '@mui/material';
 
 import AnimatedButton from './AnimatedButton';
 
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Fragment } from 'react';
 
 import { FaCopy, FaCheck } from "react-icons/fa6";
@@ -71,7 +72,7 @@ export default function PoemPaper({ poem }) {
 
                     <br />
 
-                    { 
+                    {
                         poem.poem.map((stanza, stanzaindex) => ( 
                             <Fragment key={ stanzaindex }>
                                 {

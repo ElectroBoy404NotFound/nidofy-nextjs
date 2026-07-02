@@ -4,6 +4,7 @@ import { getHomeData } from "@/data/Api";
 export const metadata = {
     title: "Nidofy",
     description: "Nikunj Doke's portfolio and poems",
+    author: "Nikunj Doke"
 };
 
 async function Home() {

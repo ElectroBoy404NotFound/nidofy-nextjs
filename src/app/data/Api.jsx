@@ -50,7 +50,10 @@ async function sendGETRequest(url, authtoken) {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
-        }
+        },
+        next: {
+            revalidate: 300,
+        },
     });
     let result = await response.json();
     return result;
