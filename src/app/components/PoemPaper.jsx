@@ -51,8 +51,18 @@ export default function PoemPaper({ poem }) {
 
     return (
         <>
-            <Container maxWidth="md">
+            <Container maxWidth="md" sx={{
+                minHeight: "100vh",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+            }}>
                 <Paper square={false} variant="elevation" elevation={3} sx={{
+                    minWidth: {
+                        xs: 320,
+                        sm: 500,
+                        md: 700,
+                    },
                     bgcolor: "#161b22",
                     color: "#e6edf3",
                     borderRadius: 4,

@@ -42,6 +42,8 @@ function HeroSection() {
                             boxShadow: 3,
                             borderRadius: 8,
                         }}
+                        
+                        loading="eager"
                     />
                 </Box>
 
