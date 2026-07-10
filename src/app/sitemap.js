@@ -11,7 +11,7 @@ export default async function sitemap() {
             priority: 1.0,
         },
         {
-            url: "https://wwe.nikunjdoke.in/poetry",
+            url: "https://www.nikunjdoke.in/poetry",
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: 0.9,
