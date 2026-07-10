@@ -16,11 +16,11 @@ export async function generateMetadata({ params }) {
         openGraph: {
             title: `${poem.title} | Nidofy`,
             description: `"${poem.title}" by ${poem.signature}`,
-            url: `https://nidofy.com/poem/${(await params).id}`,
+            url: `https://www.nikunjdoke.in/poem/${(await params).id}`,
             type: "article",
         },
         alternates: {
-            canonical: `https://nido.dino.icu/poem/${(await params).id}`,
+            canonical: `https://www.nikunjdoke.in/poem/${(await params).id}`,
         },
     };
 }
