@@ -5,20 +5,20 @@ export default async function sitemap() {
 
     return [
         {
-            url: "https://nido.dino.icu",
+            url: "https://www.nikunjdoke.in/",
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: 1.0,
         },
         {
-            url: "https://nido.dino.icu/poetry",
+            url: "https://wwe.nikunjdoke.in/poetry",
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: 0.9,
         },
 
         ...poems.map((poem) => ({
-            url: `https://nido.dino.icu/poem/${poem.id}`,
+            url: `https://www.nikunjdoke.in/poem/${poem.id}`,
             lastModified: new Date(poem.createdAt),
             changeFrequency: "monthly",
             priority: 0.8,
