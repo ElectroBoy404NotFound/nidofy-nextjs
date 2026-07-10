@@ -5,6 +5,6 @@ export default function robots() {
             allow: "/",
             disallow: ["/lltm"],
         },
-        sitemap: "https://nido.dino.icu/sitemap.xml",
+        sitemap: "https://www.nikunjdoke.in/sitemap.xml",
     };
 }
