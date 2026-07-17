@@ -113,7 +113,7 @@ function Footer() {
 
                     <IconButton
                         component="a"
-                        href="www.linkedin.com/in/nikunj-doke"
+                        href="https://www.linkedin.com/in/nikunj-doke"
                         target="_blank"
                         rel="noopener noreferrer"
 
