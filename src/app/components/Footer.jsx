@@ -3,7 +3,7 @@
 import { Box, Container, Stack, Typography, IconButton } from "@mui/material";
 
 import { CiYoutube } from "react-icons/ci";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaMail } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -128,6 +128,25 @@ function Footer() {
                         }}
                     >
                         <FaLinkedin />
+                    </IconButton>
+
+                    <IconButton
+                        component="a"
+                        href="mailto:me@nikunjdoke.in"
+                        target="_blank"
+                        rel="noopener noreferrer"
+
+                        aria-label="Email"
+                        color="primary"
+                        sx={{
+                            transition: "0.2s",
+                            "&:hover": {
+                                color: "#AA0000",
+                                transform: "translateY(-3px)",
+                            },
+                        }}
+                    >
+                        <FaMail />
                     </IconButton>
                 </Stack>
             </Container>
