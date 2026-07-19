@@ -3,7 +3,7 @@
 import { Box, Container, Stack, Typography, IconButton } from "@mui/material";
 
 import { CiYoutube } from "react-icons/ci";
-import { FaGithub, FaInstagram, FaMail } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -146,7 +146,7 @@ function Footer() {
                             },
                         }}
                     >
-                        <FaMail />
+                        <FaEnvelope />
                     </IconButton>
                 </Stack>
             </Container>
