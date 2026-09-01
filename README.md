@@ -1,7 +1,7 @@
 
-# Nidofy-Vite
+# Nidofy-NextJS
 
-This is a rewrite of my [portfolio site's rewrite in React](https://github.com/ElectroBoy404NotFound/nidofy-vite) in Next.JS.
+This is a rewrite of my [portfolio site](https://github.com/ElectroBoy404NotFound/nidofy-vite) in Next.JS.
 
 Currently, I've implemented the home page and the poems view.
 
@@ -32,7 +32,7 @@ Once the repo is cloned, run `npm i`, `npm run build` and finally `npm start`.
 
 ## Demo
 
-The live site can be accessed at https://nido.dino.icu/
+The live site can be accessed at https://www.nikunjdoke.in/
 
 ## Contributing
 
